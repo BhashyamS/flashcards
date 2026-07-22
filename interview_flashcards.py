@@ -872,7 +872,6 @@ CUSTOM_CSS = """
         border: 1px solid rgba(128, 128, 128, 0.25);
         border-radius: 18px;
         padding: 1.4rem 1.5rem;
-        min-height: 420px;
     }
 
     .category-pill {
@@ -904,9 +903,6 @@ st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
 if "selected_card" not in st.session_state:
     st.session_state.selected_card = 0
-
-if "show_answer" not in st.session_state:
-    st.session_state.show_answer = False
 
 st.markdown(
     """
@@ -965,7 +961,6 @@ with questions_col:
                 use_container_width=True,
             ):
                 st.session_state.selected_card = index
-                st.session_state.show_answer = False
                 st.rerun()
 
 with answer_col:
@@ -977,35 +972,15 @@ with answer_col:
         unsafe_allow_html=True,
     )
     st.subheader(selected["question"])
+    st.divider()
+    st.markdown(selected["answer"])
 
-    reveal_col, random_col = st.columns(2)
+    if st.button("🎲 Random card", use_container_width=True):
+        import random
 
-    with reveal_col:
-        reveal_label = "Hide answer" if st.session_state.show_answer else "Reveal answer"
-        if st.button(
-            reveal_label,
-            type="primary",
-            use_container_width=True,
-        ):
-            st.session_state.show_answer = not st.session_state.show_answer
-            st.rerun()
-
-    with random_col:
-        if st.button("🎲 Random card", use_container_width=True):
-            import random
-
-            possible = filtered_indices if filtered_indices else list(range(len(FLASHCARDS)))
-            st.session_state.selected_card = random.choice(possible)
-            st.session_state.show_answer = False
-            st.rerun()
-
-    if st.session_state.show_answer:
-        st.divider()
-        st.markdown(selected["answer"])
-    else:
-        st.info(
-            "Say your answer out loud first. Then click **Reveal answer** to compare."
-        )
+        possible = filtered_indices if filtered_indices else list(range(len(FLASHCARDS)))
+        st.session_state.selected_card = random.choice(possible)
+        st.rerun()
 
     st.markdown("</div>", unsafe_allow_html=True)
 
