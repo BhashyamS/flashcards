@@ -485,6 +485,362 @@ Before that, I worked with Power BI and Excel dashboards at Code Ninjas and used
 
 I enjoy taking an unclear business problem, understanding the data behind it, and turning it into a report or process that helps people make decisions. I am now looking for a full-time data-focused role where I can apply those skills and continue learning, particularly in a structured financial or operational environment."""
     },
+
+    {
+        "category": "Behavioral",
+        "question": "Why are you interested in BRG and this Data Analyst role?",
+        "answer": """I am interested in this role because it combines the technical work I enjoy—SQL, reporting, dashboards, and automation—with direct business impact.
+
+What stood out to me is that the team supports finance and accounting while also working with IT, operations, and legal. That cross-functional environment fits my experience because I have worked with both technical teams and business users to turn reporting needs into practical solutions.
+
+I am also drawn to BRG's entrepreneurial culture. I like roles where I can learn the business, take ownership of problems, and continuously improve how work is done rather than only producing one-time reports."""
+    },
+    {
+        "category": "Behavioral",
+        "question": "Why do you want to work in a finance and accounting organization?",
+        "answer": """I am interested in finance and accounting because the data has a direct connection to business performance, operational decisions, and risk.
+
+I enjoy working in environments where accuracy matters and where analysts need to understand not only how to calculate a number, but also what that number means to the business.
+
+My background gives me the technical foundation in SQL, dashboards, data validation, and automation. I see this role as an opportunity to apply those skills while building deeper knowledge of financial processes and reporting."""
+    },
+    {
+        "category": "Behavioral",
+        "question": "Tell me about a time you had to learn an unfamiliar business process quickly.",
+        "answer": """At Fox, I joined a team working with an enterprise camera-management environment that was completely new to me.
+
+Before I could build meaningful reports, I had to understand how devices, streams, storage, firmware, retention, and locations related to one another. I reviewed the available documentation, asked focused questions, examined sample records, and validated my understanding with the team.
+
+Once I understood the process and data model, I was able to write SQL queries and build dashboards that helped users monitor system health and storage trends.
+
+That experience showed me that I can learn a specialized business process quickly by combining curiosity, documentation, and hands-on validation."""
+    },
+    {
+        "category": "Behavioral",
+        "question": "Tell me about a time you disagreed with a stakeholder.",
+        "answer": """When I disagree with a stakeholder, I try to separate the person from the issue and focus on the business requirement and the evidence.
+
+For example, if a stakeholder believes a report total is incorrect, I would first ask how they expect the metric to be defined and what source they are comparing it against. I would then walk through the data logic, test sample records, and identify whether the difference comes from filters, timing, or business definitions.
+
+If their interpretation is correct, I adjust the report. If the report logic is correct, I explain the difference clearly and document the agreed definition.
+
+My goal is not to prove that I am right. It is to make sure the final output is accurate and trusted."""
+    },
+    {
+        "category": "Behavioral",
+        "question": "How do you communicate technical information to nontechnical stakeholders?",
+        "answer": """I start with the business meaning rather than the technical implementation.
+
+Instead of saying that a join created duplicate rows, I might explain that one loan or device was being counted multiple times because it had several related records.
+
+I use simple examples, show the impact on the report, and avoid unnecessary technical terms. I also confirm understanding by asking whether the explanation matches how the stakeholder views the process.
+
+If more detail is needed, I can then explain the SQL or data model behind the result. This layered approach helps different audiences understand the same issue at the right level."""
+    },
+    {
+        "category": "Behavioral",
+        "question": "How do you work effectively in a remote environment?",
+        "answer": """I work effectively remotely by being organized, responsive, and clear about progress.
+
+I keep track of priorities and deadlines, document decisions, and communicate early when I have a question or encounter a blocker. I also avoid waiting until a project is complete before showing progress. I prefer to share an early version, confirm that I am moving in the right direction, and then continue refining it.
+
+For collaborative work, I summarize requirements and next steps after meetings so everyone has the same understanding.
+
+Remote work requires visibility and trust, so I make sure stakeholders know what I am working on, what has been completed, and where I need input."""
+    },
+    {
+        "category": "Documentation",
+        "question": "How do you create technical documentation?",
+        "answer": """I write documentation so that another person can understand, use, and maintain the solution without relying entirely on me.
+
+For a report or dashboard, I would document its purpose, source systems, refresh schedule, table relationships, KPI definitions, filters, calculations, assumptions, known limitations, and troubleshooting steps.
+
+For SQL or an automated process, I would also include dependencies, input and output formats, validation checks, and ownership information.
+
+I try to keep documentation practical and current. A long document is not useful if users cannot quickly find the information they need."""
+    },
+    {
+        "category": "Documentation",
+        "question": "What would you include in a report specification?",
+        "answer": """I would include the report's business purpose, intended audience, required KPIs, detailed metric definitions, source systems, filters, reporting grain, refresh frequency, security requirements, and expected output format.
+
+I would also document acceptance criteria, such as how totals will be validated and what conditions must be met before the report is considered complete.
+
+If multiple teams are involved, I would identify the business owner, technical owner, and data owner.
+
+A clear specification reduces rework because it creates agreement on what the report should do before development begins."""
+    },
+    {
+        "category": "Excel & Reporting",
+        "question": "How have you used Excel for analysis?",
+        "answer": """I have used Excel for data review, reconciliation, and summary reporting.
+
+I am comfortable with formulas such as VLOOKUP, XLOOKUP, IF statements, SUMIFS, and COUNTIFS, as well as pivot tables, filters, sorting, and conditional formatting.
+
+For example, I can use a pivot table to summarize transactions by department or month, and use lookup formulas to compare records between two files.
+
+I see Excel as especially useful for quick validation, ad hoc analysis, and stakeholder-friendly outputs, while SQL and Power BI are better for repeatable and scalable reporting."""
+    },
+    {
+        "category": "Excel & Reporting",
+        "question": "When would you use Excel instead of Power BI?",
+        "answer": """I would use Excel when the analysis is small, temporary, highly interactive, or requires detailed manual review by the user.
+
+I would use Power BI when the report needs automated refreshes, a governed data model, consistent KPI definitions, broader distribution, drill-downs, or ongoing monitoring.
+
+Sometimes the best solution uses both. Power BI can provide the standardized dashboard, while Excel can support detailed follow-up analysis or exception review.
+
+The choice should depend on the business need, scale, frequency, and audience rather than personal preference."""
+    },
+    {
+        "category": "Dashboards & Reporting",
+        "question": "How do you decide which visualization to use?",
+        "answer": """I choose the visualization based on the question the user needs to answer.
+
+I use line charts for trends over time, bar charts for comparing categories, KPI cards for key totals, tables for detailed investigation, and scatter plots for relationships between variables.
+
+I avoid using a chart simply because it looks interesting. The visualization should make the pattern easier to understand than the raw data.
+
+I also consider the audience, the amount of data, and whether the user needs a summary or detailed action list."""
+    },
+    {
+        "category": "Dashboards & Reporting",
+        "question": "What makes a dashboard effective?",
+        "answer": """An effective dashboard is accurate, focused, easy to understand, and connected to a business decision.
+
+It should highlight the most important information first, use consistent definitions, avoid unnecessary visual clutter, and allow users to investigate exceptions.
+
+It should also load quickly and provide enough context for users to understand what the numbers mean.
+
+A dashboard is successful when stakeholders actually use it to make decisions or take action, not simply when it looks polished."""
+    },
+    {
+        "category": "SQL & Data",
+        "question": "What is the difference between WHERE and HAVING?",
+        "answer": """WHERE filters rows before aggregation, while HAVING filters groups after aggregation.
+
+For example, WHERE can restrict the data to active loans before calculating totals. HAVING can then return only customers whose total outstanding balance is greater than a certain amount.
+
+```sql
+SELECT
+    customer_id,
+    SUM(outstanding_balance) AS total_balance
+FROM loans
+WHERE loan_status = 'Active'
+GROUP BY customer_id
+HAVING SUM(outstanding_balance) > 100000;
+```"""
+    },
+    {
+        "category": "SQL & Data",
+        "question": "What is a CTE, and when would you use one?",
+        "answer": """A CTE, or Common Table Expression, is a named temporary result set used within a SQL statement.
+
+I use CTEs to break complex logic into readable steps, such as filtering data, ranking records, aggregating results, and then joining the final outputs.
+
+CTEs make queries easier to understand and maintain. They can also help with recursive logic, although I most often use them to structure reporting queries.
+
+I still review performance because a CTE does not automatically make a query faster. Its main benefit is organization and clarity."""
+    },
+    {
+        "category": "SQL & Data",
+        "question": "How would you find duplicate records in a table?",
+        "answer": """I would first define which columns should make a record unique.
+
+Then I could use GROUP BY with HAVING to identify duplicate combinations.
+
+```sql
+SELECT
+    loan_id,
+    transaction_date,
+    amount,
+    COUNT(*) AS record_count
+FROM payments
+GROUP BY
+    loan_id,
+    transaction_date,
+    amount
+HAVING COUNT(*) > 1;
+```
+
+I could also use ROW_NUMBER() if I need to identify the specific duplicate rows.
+
+Before deleting or changing anything, I would confirm whether the duplicates are truly invalid and investigate how they were created."""
+    },
+    {
+        "category": "SQL & Data",
+        "question": "How do you handle NULL values in SQL?",
+        "answer": """I first determine what the null means because it may represent missing data, not applicable data, or an incomplete process.
+
+I use IS NULL or IS NOT NULL to filter nulls, because comparisons such as equals NULL do not work as expected.
+
+I may use COALESCE to provide a fallback value, but only when that replacement is meaningful.
+
+For example, replacing a missing payment amount with zero could be misleading if the payment record itself is missing. I try to preserve the difference between a true zero and an unknown value."""
+    },
+    {
+        "category": "Data Quality",
+        "question": "How would you test a new report before releasing it?",
+        "answer": """I would test the report at several levels.
+
+First, I would validate the source data and compare row counts and totals with an approved source. Then I would test calculations, joins, filters, date ranges, null values, duplicates, and boundary cases.
+
+I would also test performance and verify that users only see data they are authorized to access.
+
+Finally, I would ask the business owner to review sample results and confirm that the report meets the agreed requirements.
+
+I would document the test results and any known limitations before release."""
+    },
+    {
+        "category": "Data Quality",
+        "question": "What would you do if two departments define the same KPI differently?",
+        "answer": """I would not choose one definition on my own.
+
+I would bring the stakeholders together, document both definitions, and ask what business question each version is intended to answer.
+
+Sometimes both metrics are valid but need different names. For example, Finance may define revenue based on posted transactions, while Operations uses processed transactions.
+
+Once the owners agree on the definitions, I would document them clearly in the report and data model so users understand exactly what each KPI represents."""
+    },
+    {
+        "category": "Finance & Accounting",
+        "question": "If Finance and Accounting totals do not match, how would you investigate?",
+        "answer": """I would first confirm that both teams are using the same reporting period, source systems, currency, account scope, and metric definition.
+
+Then I would compare totals at a high level and progressively break the difference down by account, department, transaction type, and date until I isolated the affected records.
+
+I would check for timing differences, missing postings, duplicate transactions, reversed entries, mapping issues, and different treatment of accruals or adjustments.
+
+I would document the reconciliation and avoid changing either report until the root cause was understood and validated by the appropriate owners."""
+    },
+    {
+        "category": "Finance & Accounting",
+        "question": "How would you validate a monthly financial report?",
+        "answer": """I would confirm the reporting period and compare the report totals with the relevant source systems or general ledger.
+
+I would perform record-count and amount reconciliations, compare results with the prior month, investigate material variances, and review missing or duplicate transactions.
+
+I would also test account mappings, date logic, signs, currency conversions, and late adjustments.
+
+Any unresolved differences would be documented as exceptions and reviewed with the report owner before the report was finalized."""
+    },
+    {
+        "category": "Finance & Accounting",
+        "question": "What is a reconciliation?",
+        "answer": """A reconciliation is the process of comparing two data sources or sets of records to confirm that they agree.
+
+The goal is to identify missing, duplicated, delayed, or incorrectly recorded transactions.
+
+A good reconciliation does more than show that totals differ. It categorizes the differences, identifies the affected records, assigns ownership, and creates an audit trail showing how each exception was resolved."""
+    },
+    {
+        "category": "Automation & Process",
+        "question": "How do you decide whether a process should be automated?",
+        "answer": """I look for processes that are repetitive, rules-based, time-consuming, and prone to manual error.
+
+I also consider the stability of the process. Automating a process that changes every week can create more maintenance than value.
+
+Before automating, I estimate the current effort, error rate, frequency, and business impact. I also identify exceptions that still require human judgment.
+
+The best candidates are usually high-volume tasks with clear rules, such as recurring reconciliations, file validation, report refreshes, or exception identification."""
+    },
+    {
+        "category": "Automation & Process",
+        "question": "How would you improve a manual monthly reporting process?",
+        "answer": """I would first map the current process from data collection through final distribution.
+
+I would identify which steps are manual, where files are copied or reformatted, which calculations are repeated, and where errors commonly occur.
+
+Then I would centralize the source data, move repeatable logic into SQL or Power Query, automate refreshes where appropriate, add validation checks, and create a documented review workflow.
+
+I would measure improvement using time saved, reduction in errors, and faster report delivery."""
+    },
+    {
+        "category": "SSRS & Reporting",
+        "question": "Have you worked with SQL Server Reporting Services?",
+        "answer": """I have not yet used SSRS directly in a production environment.
+
+My reporting experience has primarily been with Tableau and Power BI, where I have connected to SQL data sources, created calculated fields and KPIs, built interactive reports, and validated outputs.
+
+Because the core reporting concepts are transferable—datasets, parameters, filters, calculations, refreshes, and distribution—I am confident I could learn SSRS quickly.
+
+I would be honest about the gap while emphasizing that I already understand the underlying SQL and reporting workflow."""
+    },
+    {
+        "category": "SSRS & Reporting",
+        "question": "What is the difference between an interactive dashboard and a paginated report?",
+        "answer": """An interactive dashboard is designed for exploration. Users can filter, drill down, and compare KPIs visually.
+
+A paginated report is designed for structured, printable output with precise formatting, repeated headers, and detailed tables that may span multiple pages.
+
+Power BI and Tableau are often used for interactive dashboards, while SSRS is commonly used for operational or paginated reporting.
+
+I would choose based on whether users need exploration and visualization or a fixed, detailed report for distribution and recordkeeping."""
+    },
+    {
+        "category": "Scenario",
+        "question": "A stakeholder asks for an urgent report by the end of the day, but the requirements are unclear. What do you do?",
+        "answer": """I would quickly clarify the decision the report needs to support, the required metrics, the data source, and the minimum acceptable output.
+
+I would explain what can realistically be delivered by the deadline and separate essential requirements from optional enhancements.
+
+I would provide a validated first version, clearly label any assumptions, and schedule follow-up work for improvements.
+
+I would not rush an unvalidated report simply to meet the deadline, especially if the numbers could affect financial or operational decisions."""
+    },
+    {
+        "category": "Scenario",
+        "question": "A report is due, but one source system has not refreshed. What do you do?",
+        "answer": """I would first confirm the refresh status and determine which metrics are affected.
+
+I would notify the report owner, explain the issue, and provide options. Depending on the business need, that could mean delaying the report, publishing unaffected sections, or using the latest available data with a clear disclosure.
+
+I would never present stale data as current without informing users.
+
+Afterward, I would investigate whether monitoring or an automated freshness alert could prevent the same problem in the future."""
+    },
+    {
+        "category": "Scenario",
+        "question": "What would you do if a manager asked you to change a number without supporting data?",
+        "answer": """I would respectfully ask for the business reason and supporting documentation.
+
+I would explain that I need to preserve the accuracy and auditability of the report, especially when financial information is involved.
+
+If the change is a legitimate adjustment, I would make sure it follows the approved process and is clearly documented.
+
+If I still had concerns, I would escalate to the appropriate data owner or manager rather than making an unsupported change."""
+    },
+    {
+        "category": "Behavioral",
+        "question": "What would your manager say about you?",
+        "answer": """I believe my manager would say that I am dependable, curious, and willing to take ownership.
+
+When I receive a task, I try to understand the business purpose, not just complete the technical request. I also communicate when I need clarification and validate my work before presenting it.
+
+I think they would also say that I learn quickly. At Fox, I had to become comfortable with an unfamiliar system and data model before I could build useful reporting, and I was able to do that successfully."""
+    },
+    {
+        "category": "Behavioral",
+        "question": "Where do you see yourself in three to five years?",
+        "answer": """In three to five years, I would like to be a well-rounded data analyst who understands both the technical and business sides of reporting and process improvement.
+
+I want to deepen my skills in SQL, Power BI, financial data, and automation while becoming someone stakeholders trust to solve complex reporting problems.
+
+Over time, I would also like to take ownership of larger initiatives and help improve the team's reporting standards and processes."""
+    },
+    {
+        "category": "Behavioral",
+        "question": "Do you have any questions for us?",
+        "answer": """Yes. I would ask two or three questions such as:
+
+- What would be the most important priorities for this person during the first three to six months?
+- What types of reports or business processes would this analyst support most frequently?
+- How does the team collaborate with finance, accounting, IT, operations, and legal?
+- How do you measure success in this role?
+- Could you walk me through the remaining steps and expected hiring timeline?
+
+I would avoid directly asking how many candidates are being interviewed. Asking about the process and timeline is more professional."""
+    },
 ]
 
 CUSTOM_CSS = """
